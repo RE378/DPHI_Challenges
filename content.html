@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Challenges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://miro.medium.com/max/741/1*iI8PwD0947jvSePlBlmZJw.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   
+</head>
+<body>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        /* section {
+        height: 110vh;
+        width: 100%;
+        align-items: center;
+        /* justify-content: center; 
+        } */
+        
+        .nav_sticky{
+            position: sticky;
+            background-color: white;
+            top:0px;
+        }
+        .nav_sticky .nav_sticky_cont{
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: start;
+            padding: 10px;
+        }
+        .nav_sticky .nav_sticky_cont ul{
+            list-style: none;
+        }
+        .nav_sticky .nav_sticky_cont ul li{
+            display: inline-block;
+        }
+        .nav_sticky .nav_sticky_cont ul li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: grey;
+        }
+        .nav_sticky .nav_sticky_cont ul li.active {
+        border-bottom: 2px solid #44924c ;
+        border-radius: 2px;
+        transition: 0.3s ease border-bottom;
+        }
+        .nav_sticky .nav_sticky_cont ul li.active a {
+        color: #44924c ;
+       }
+       .img_act{
+        width: 15%;
+        display: block;
+       }
+       /* .img_up{
+        width: 25%;
+        display: block;
+        margin: 1rem;
+       } */
+       .act_grid1{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+       
+        grid-column-gap: 1rem;
+        padding: 1.5rem;
+       }
+       .back_col{
+        padding-top: 1.5rem;
+        background-color: #f5f5ff;
+       }
+       .act_grid1>div{
+        background-color: #fff;
+        padding: 2rem;
+       }
+       .act_grid1_main_img{
+        width: 60px;
+        height: 60px;
+        background: #233d4d;
+        background-size: 100%;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+       }
+       .act_grid1_img1{
+        background-image: url("https://dphi.tech/static/images/practice/logical-thinking.png");
+         }
+         .act_grid1_img2{
+  background-image: url("https://dphi.tech/static/images/practice/challenges.png");
+         }
+         .act_grid1_img2{
+            background-image: url("https://dphi.tech/static/images/practice/challenges.png");
+         }
+         .act_grid1_img3{
+            background-image: url("https://dphi.tech/static/images/practice/companies.png ");
+         }
+         .act_grid1_img4{
+            background-image: url("https://dphi.tech/static/images/practice/teamwork%201.png");
+         }
+         .act_grid1_text{
+            color: #586673 ;
+            display: inline-block;
+             padding-left: 1rem;
+         }
+         .up_hr{
+            border: 2px solid #ff6200;
+            background-color: #ff6200;
+            margin-left: 0.5rem;
+            width: 95%;
+         }
+         /* .past_grid1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+         } */
+         .past_grid1>div{
+            padding: 1rem;
+            margin: 1rem;
+         }
+         .past_btn{
+            color: #44924c ;
+            background-color: #fff;
+            border-color: #44924c ;
+         }
+         .past_btn:hover{
+            color: #fff;
+            background-color: #44924c ;
+            border-color: #44924c;
+         }
+         .carousel-indicators [data-bs-target]{
+            background-color: #000;
+         }
+    </style>
+<nav class="nav_sticky">
+    <div class="nav_sticky_cont">
+    <ul>
+        <li class="act active"><a href="#act">Active</a></li>
+        <li class="upcoming"><a href="#upcoming">Upcoming</a></li>
+        <li class="past"><a href="#past">Past</a></li>
+    </ul></div>
+</nav>
+
+<section class="content " id="act">
+    <div class="container"style="text-align: -webkit-center;">
+    <img src="https://dphi.tech/static/images/practice/no-datathons.png" alt="" class="img_act">
+    <h6>No active challenges</h6>
+    <small class="text-secondary">Please check upcoming challenges</small></div>
+    <div class="back_col head">
+    <h5>Why Participate in AI Challenges?</h5>
+    <div class="act_grid1">
+     <div>
+        <img src="..." alt="..."  class="act_grid1_main_img act_grid1_img1" style="display: inline;float: left;">
+            <h4 class="act_grid1_text">Prove your skills</h4><br>
+           Gain substantial experience by solving real-world problems and 
+                pit against others to come up with innovative solutions.
+     </div>
+      <div>
+        <img src="..." alt="..."  class="act_grid1_main_img act_grid1_img2"style="display: inline;float: left;">
+            <h4 class="act_grid1_text">Earn recognition</h4><br>
+            You will stand out from the crowd if you do well in AI challenges,
+             it not only helps you shine in the community but also earns rewards.
+        </div></div>
+      <div class="act_grid1">
+      <div>
+        <img src="..." class="act_grid1_main_img act_grid1_img3" alt="..."style="display: inline;float: left;">
+        <h4 class="act_grid1_text">Challenge yourself</h4><br>
+        There is nothing for you to lose by participating in a challenge.
+         You can fail safe, learn out of the entire experience and bounce back harder.
+      </div>
+      <div>
+        <img src="..." class="act_grid1_main_img act_grid1_img4" alt="..."style="display: inline;float: left;">
+        <h4 class="act_grid1_text">Learn from community</h4><br>
+        One can look and analyze the solutions submitted by the other Data Scientists 
+        in the community and learn from them.
+      </div>
+    
+    </div></div>
+<!-- For smart phone version -->
+<div id="carouselExampleIndicators" class="carousel slide head1" data-bs-ride="true"style="margin-top:4rem;margin-bottom:0px">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner back_col" style="padding: 2rem;margin:0.1rem">
+      <div class="carousel-item active card " style="width: 20rem;text-align:center">
+        <!-- <div class="card" > -->
+        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+        <center>
+        <img src="..." alt="..."  class="act_grid1_main_img act_grid1_img1">
+        
+            <h4 class="act_grid1_text">Prove your skills</h4><br>
+           Gain substantial experience by solving real-world problems and 
+                pit against others to come up with innovative solutions.</center>
+      </div>
+      <div class="carousel-item  card" style="width: 20rem;text-align:center">
+        <!-- <div class="card" style="width: 20rem;text-align:center"> -->
+            <center>
+        <img src="..." alt="..."  class="act_grid1_main_img act_grid1_img2">
+            <h4 class="act_grid1_text">Earn recognition</h4><br>
+            You will stand out from the crowd if you do well in AI challenges,
+             it not only helps you shine in the community but also earns rewards.</center>
+      </div>
+      <div class="carousel-item card" style="width: 20rem;text-align:center">
+        <!-- <div class="card" style="width: 20rem;text-align:center"> -->
+            <center>
+        <img src="..." class="act_grid1_main_img act_grid1_img3" alt="...">
+        <h4 class="act_grid1_text">Challenge yourself</h4><br>
+        There is nothing for you to lose by participating in a challenge.
+         You can fail safe, learn out of the entire experience and bounce back harder.</center>
+      </div>
+      <div class="carousel-item card" style="width: 20rem;text-align:center">
+        <!-- <div class="card" style="width: 20rem;text-align:center"> -->
+            <center>
+        <img src="..." class="act_grid1_main_img act_grid1_img4" alt="...">
+        <h4 class="act_grid1_text">Learn from community</h4><br>
+        One can look and analyze the solutions submitted by the other Data Scientists 
+        in the community and learn from them.</center>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--  -->
+    </div>
+</section>
+
+<section class="content" id="upcoming" >
+    <h2 class="ms-3">Upcoming Challenges</h2>
+    <hr class="up_hr">
+    <div class="container"style="text-align: -webkit-center;padding-top: 3rem;">
+        <img src="https://dphi.tech/static/images/practice/no-datathons.png" alt="" class="img_up">
+        <br>
+        <h6>No active challenges</h6>
+        <small class="text-secondary">Please check upcoming challenges</small></div>
+</section>
+<section class="content" id="past">
+    <h2 class="ms-3">Past Challenges</h2>
+    <hr class="up_hr">
+    <div class="past_grid1">
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> <center>
+              <h5 class="card-title">Data Sprint 82 - Smart-Grid Stability Prediction</h5>
+              <small>ENDED ON</small>
+              <p class="card-text"> 11 Jul'22 21:00</p>
+            
+              <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <center>
+              <h5 class="card-title">Data Sprint 81 - Neuroheadstate Eye-State Classification</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">04 Jul'22 21:00</p>
+              <center>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 80 - Sports Genre Identification</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">02 Jul'22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="card">
+            <img src="https://dphi-live.s3.amazonaws.com/datathons/datathon_238/card_image.png" class="card-img-top" alt="...">
+            <div class="card-body"> <center>
+              <h5 class="card-title">Predict Career Longevity for NBA Rookies</h5>
+              <br>
+              <small>ENDED ON</small>
+              <p class="card-text"> 26 Jun'22 23:59</p>
+             
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> <center>
+              <h5 class="card-title">Data Sprint 79 - Asteroid Orbital Path</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">20 Jun'22 21:00 </p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 78 - Equestrian Tipster Bet Prediction</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">13 Jun'22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 77 - Network Intrusion Detection</h5>
+              <br>
+              <small>ENDED ON</small>
+              <p class="card-text">06 Jun'22 21:00</p>
+              
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 76 - Human Activity Recognition</h5>
+              <br>
+              <small>ENDED ON</small>
+              <p class="card-text">6 Jun'22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> <center>
+              <h5 class="card-title">Data Sprint 75 - Reproductive Child Healthcare Classificatio</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">23 May 22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+
+
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 74 Smoker Status -Prediction using Bio-Signals</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">16 May'22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"><center>
+              <h5 class="card-title">Data Sprint 73 - Airline Passenger Satisfaction</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">09 May 22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="card">
+            <img src="https://dphi.s3.ap-south-1.amazonaws.com/datathons/card_default.jpg" class="card-img-top" alt="...">
+            <div class="card-body"> <center>
+              <h5 class="card-title">Data Sprint 72 - Butterfly Identification</h5>
+              <small>ENDED ON</small>
+              <p class="card-text">02 May'22 21:00</p>
+                <a href="#" class="btn past_btn">Practice Now</a></center>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+<script src="app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+</body>
+</html>

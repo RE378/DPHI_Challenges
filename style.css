@@ -1,0 +1,312 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.img1{
+    width: 8rem;
+
+}
+
+.d:hover .dd{
+    display: block;
+}
+.dd{
+    margin-top: 0;
+}
+
+
+
+.bo{
+    color:  #f9a95e;
+    font-weight: bolder;
+}
+.btn_green{
+    background-color: 
+    #44924c ;
+    color: #fff;
+}
+.btn_green:hover{
+    background-color: #45824b;
+    color: #fff;
+}
+.btn_dark{
+    color: #000;
+    border-color: #000;
+}
+.btn_dark:hover{
+    background-color: rgb(241, 240, 240);
+    color: #000;
+}
+.nav_sticky{
+    position: sticky;
+    background-color: white;
+    top:0px;
+}
+.nav_sticky .nav_sticky_cont{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 10px;
+}
+.nav_sticky .nav_sticky_cont ul{
+    list-style: none;
+}
+.nav_sticky .nav_sticky_cont ul li{
+    display: inline-block;
+}
+.nav_sticky .nav_sticky_cont ul li a {
+display: inline-block;
+text-decoration: none;
+padding: 5px 10px;
+color: grey;
+}
+.nav_sticky .nav_sticky_cont ul li.active {
+border-bottom: 2px solid #44924c ;
+border-radius: 2px;
+transition: 0.3s ease border-bottom;
+}
+.nav_sticky .nav_sticky_cont ul li.active a {
+color: #44924c ;
+}
+.img_act{
+width: 15%;
+display: block;
+}
+/* .img_up{
+width: 25%;
+display: block;
+margin: 1rem;
+} */
+.act_grid1{
+display: grid;
+grid-template-columns: 0.5fr 0.5fr;
+
+grid-column-gap: 1rem;
+padding: 1.5rem;
+}
+.back_col{
+padding-top: 1.5rem;
+background-color: #f5f5ff;
+}
+.act_grid1>div{
+background-color: #fff;
+padding: 2rem;
+}
+.act_grid1_main_img{
+width: 60px;
+height: 60px;
+background: #233d4d;
+background-size: 100%;
+clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.act_grid1_img1{
+background-image: url("https://dphi.tech/static/images/practice/logical-thinking.png");
+ }
+ .act_grid1_img2{
+background-image: url("https://dphi.tech/static/images/practice/challenges.png");
+ }
+ .act_grid1_img2{
+    background-image: url("https://dphi.tech/static/images/practice/challenges.png");
+ }
+ .act_grid1_img3{
+    background-image: url("https://dphi.tech/static/images/practice/companies.png ");
+ }
+ .act_grid1_img4{
+    background-image: url("https://dphi.tech/static/images/practice/teamwork%201.png");
+ }
+ .act_grid1_text{
+    color: #586673 ;
+    display: inline-block;
+     padding-left: 1rem;
+ }
+ .up_hr{
+    border: 2px solid #ff6200;
+    background-color: #ff6200;
+    margin-left: 0.5rem;
+    width: 95%;
+ }
+ /* .past_grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+ } */
+ .past_grid1>div{
+    padding: 1rem;
+    margin: 1rem;
+ }
+ .past_btn{
+    color: #44924c ;
+    background-color: #fff;
+    border-color: #44924c ;
+ }
+ .past_btn:hover{
+    color: #fff;
+    background-color: #44924c ;
+    border-color: #44924c;
+ }
+ .carousel-indicators [data-bs-target]{
+    background-color: #000;
+ }
+@media (min-width: 992px) { 
+    .head1{
+        visibility: visible;
+        
+      }
+      .head2{
+          visibility: hidden;
+          display: none;
+      }
+      .z{
+        z-index: 2;
+      }
+      .grid_1{
+        display: grid;
+        grid-template-columns: 0.6fr 0.4fr;
+        grid-gap:2.5rem;
+    }
+    .grid_1_img1{
+        width: 40%;
+    
+    }
+      .grid_2{
+        display: grid;
+        grid-template-columns:auto auto auto ;
+        width: 75%;
+        grid-column-gap: 4rem;
+    }
+    .grid_2 div h4{
+        font-size: 2.5rem;
+    }
+    #grid2{
+        display: grid;
+        grid-template-columns:auto auto auto auto auto;
+        height: 50%;
+    }
+    .fspace{
+        padding-top: 10rem;
+    }
+    .fm{
+        padding-top: 1rem;
+         margin-left: 25rem;
+    }
+    .img_up{
+        width: 25%;
+        display: block;
+        margin: 1rem;
+       }
+    .past_grid1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+     }
+     #upcoming{
+        margin-top: 5rem;
+    }
+    /* .content{
+        padding-top: 5rem;
+    } */
+    section {
+        padding-top: 5rem;
+        height: 200vh;
+        width: 100%;
+        align-items: center;
+        /* justify-content: center; */
+        }
+        .footer_pad-top{
+            padding-top: 55rem;
+        }
+}
+.fm{
+    background-color: #ddeefa;
+    display: inline-block;
+    margin-left: 0rem;
+}
+@media(max-width:800px){
+    .head{
+        visibility: hidden;
+        display: none;
+    }
+    .head2{
+        visibility: visible;
+    }
+    .z{
+        z-index:  1020;
+        position: sticky;
+      }
+    .grid_1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .grid_1_img1{
+        width: 100%;
+        opacity: 0.5;
+    
+    }
+    .footer_pad-top{
+        padding-top: 310rem;
+    }
+    .grid_2{
+        display: grid;
+        grid-template-columns:auto auto auto ;
+        width: 45%;
+        grid-column-gap: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem!important;
+        margin-left: 1rem!important;
+    }
+    .grid_2 div h4{
+        font-size: 1.5rem;
+    }
+    #grid2{
+        display: grid;
+        grid-template-columns:auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        /* height: 50%; */
+        width: auto;
+    }
+    section {
+        height: 50vh;
+        width: 100%;
+        align-items: center;
+        /* justify-content: center; */
+        }
+    /* #upcoming{
+        margin-top: 32rem;
+    } */
+    .img_up{
+        padding-top: 5rem;
+        width: 45%;
+        display: block;
+        /* margin: 1rem; */
+       }
+
+    .past_grid1{
+        display: grid;
+        grid-template-rows:  auto;
+     }
+     html{
+        scroll-behavior: smooth;
+    }
+   
+}
+    .item-set2{
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .item-set2 a,#grid2 p{
+        color: gray;
+        text-decoration: none;
+    }
+    .size{
+width: 8rem;
+padding-right: 0.5rem;
+}
+.round{
+color: #444444!important;
+font-size: 1.2rem;
+}
