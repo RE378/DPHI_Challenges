@@ -222,7 +222,7 @@ background-image: url("https://dphi.tech/static/images/practice/challenges.png")
     display: inline-block;
     margin-left: 0rem;
 }
-@media(max-width:800px){
+@media(max-width:990px){
     .head{
         visibility: hidden;
         display: none;
