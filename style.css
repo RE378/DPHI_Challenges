@@ -234,6 +234,9 @@ background-image: url("https://dphi.tech/static/images/practice/challenges.png")
         z-index:  1020;
         position: sticky;
       }
+    #past{
+        margin-top: 2rem;
+    }
     .grid_1{
         display: grid;
         grid-template-columns: auto auto;
